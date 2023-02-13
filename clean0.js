@@ -1,17 +1,6 @@
 const now = new Date();
 const hoursAndMinutes = now.getHours() + '' + now.getMinutes();
 console.log(hoursAndMinutes);
-const mySwitch = document.getElementById("mySwitch");
-const myText = document.getElementById("myText");
-mySwitch.addEventListener("change", () => {
-  if (mySwitch.checked) {
-    myText.innerText = "Mode Automatique Activé";
-    console.log('Mode Automatique Activé');
-    automatic() ;
-  } else {
-    myText.innerText = "Mode Automatique Désactivé";
-  }
-});
     var getStill = document.getElementById('getStill');
     var ShowImage = document.getElementById('ShowImage');
     var result = document.getElementById('result');
