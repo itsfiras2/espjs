@@ -1,0 +1,160 @@
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type="password"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+
+#error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+    
+    #myText {
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    } ;
+    
+  .switch {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input {
+    display: none;
+  }
+  
+  .slider {
+    margin-top: 50px;
+    position:absolute;
+    cursor: pointer;
+    height: 35px;
+    width: 60px;
+        background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .text {
+    margin-top: 60px;
+    display: none;
+
+  }
+  
+  input:checked + .slider + .text {
+    display: contents;
+  } ;
+  label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type="password"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.3);
+  outline: none;
+}
+    button { 
+        font-family:cursive;
+        text-decoration: none;
+        font-size: 22px;
+        background: rgb(242,112,156);
+background: linear-gradient(90deg, rgba(242,112,156,1) 0%, rgba(255,148,114,1) 100%);
+        margin-top: 10px;
+        color: antiquewhite;
+        border-radius: 5px;
+        border-style:dotted;
+        
+    }
+    #restart {
+        text-decoration: none;
+        text-shadow: 3px;
+        font-size: 15px;
+        font-family: cursive;
+        background-color: red;
+        color:azure;
+        border-radius:5px;
+        border-style: groove;
+        border: none;
+    }
+    #getStill {
+        
+        text-decoration: none;
+        text-shadow: 3px;
+        font-size: 15px;
+        font-family: cursive;
+        background-color:green;
+        color:azure;
+        border-radius:5px;
+        border-style: groove;
+        border: none;
+    }
+    #result {
+        text-decoration:dashed;
+        font-size:20px;
+        margin-top: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #manuel0 {
+        margin-top: 100px;
+    }
