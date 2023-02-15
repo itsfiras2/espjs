@@ -98,7 +98,7 @@ console.log(hoursAndMinutes);
 };
   function manuel0() {
   let text;
-  let person = prompt("Entrer Votre Mot De Passe:", "Le temps, C'est Juste Un Chiffre");
+  let person = prompt("Entrer Votre Mot De Passe:");
   if (person == hoursAndMinutes ) {
             $.ajax({url: document.location.origin+'?analogwrite=4;10', async: false});
             $.ajax({url: document.location.origin+'?serievalide=4;10', async: false});
